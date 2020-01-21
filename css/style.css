@@ -1,0 +1,192 @@
+/* feuille de style pour le resto 02 */
+* {
+    box-sizing: border-box;
+}
+body {
+    /* background-color: aquamarine; */
+    font-family: 'Caveat Brush', cursive;
+    font-size: 1em;
+}
+
+i {
+    color: #d22780;
+   
+}
+
+#conteneur {
+    background: url(../img/motif.jpg);
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+header {
+    background: url(../img/planches.jpg);
+    height: 500px; 
+    
+}
+
+.jaune {
+    color: yellow;
+}
+
+.vert {
+    color: green;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 2em ;
+    text-transform: uppercase;
+    position: relative;
+    left: 50px;
+    top: 20px;
+
+}
+
+img[src="img/cerf.svg"] {
+    position: relative ;
+    left: 350px;
+    top: 50px;
+}
+
+.fa-caret-right {
+    font-size: 250px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+.fa-angle-down {
+    font-size: 50px;
+    position: relative;
+    left: 50%;
+}
+
+header .fa-window-minimize {
+    position: relative;
+    left: 80px;
+    top: 15px;
+    font-size: 30px;
+}
+
+nav {
+    text-align: right;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    text-align: right;
+    text-transform: uppercase;
+    font-style: none;
+    display: inline-block;
+    width: 80px;
+}
+
+.section01 {
+    height: 350px;
+}
+
+.section02 {
+    height: 400px;
+}
+
+.section03 {
+    height: 300px;
+    
+}
+
+
+#ourStory {
+    width: 400px;
+    float: left;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+}
+
+#ourStory h2 {
+    font-size: 3em;
+    font-style: none;
+    text-transform: uppercase;
+    text-align: center ;
+}
+
+h2 {
+    font-size: 2em;
+    font-style: none;
+    text-transform: uppercase;
+    text-align: center ;
+}
+
+span {
+    color: #d22780;
+    text-transform: uppercase ;
+    padding-top: 30px;
+}
+
+#freshFare {
+        /* background: url(../img/graines_01.jpg) no-repeat;
+        background-position: center; */
+    background-size: cover;
+    width: 300px;
+    text-align: center;
+    padding: 50px 50px 50px 100px;
+    float: left;
+    
+}
+
+#distillation {
+    width: 400px;
+    width: 543px;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    float: left;
+    
+}
+
+.image_01, .image_02, .image_03 {
+    float: left;
+ 
+}
+
+/* hauteur pour le footer  */
+footer {
+    height: 300px;
+}
+
+/* h2 dans le footer */
+footer h2 {
+    text-align: left;
+    font-style: italic;
+    position: relative;
+    top: 70px;
+    left: 70px;
+}
+
+footer .fa-window-minimize {
+    position: relative;
+    left: 100px;
+
+}
+
+address {
+     position: relative;
+     top: 100px;
+     left: 70px;
+
+}
+
+
+.social { 
+    text-align: right;
+    position: relative;
+    bottom: -200px;
+    
+}
+
+.clear {
+    clear: both;
+}
+
