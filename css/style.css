@@ -1,7 +1,7 @@
 /* feuille de style pour le resto 02 */
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 body {
     /* background-color: aquamarine; */
     font-family: 'Caveat Brush', cursive;
@@ -17,12 +17,14 @@ i {
     background: url(../img/motif.jpg);
     width: 1000px;
     margin: 0 auto;
+    box-sizing: border-box;
 
 }
 
 header {
     background: url(../img/planches.jpg);
-    height: 500px; 
+    opacity: 0.9;
+    height: 600px; 
     
 }
 
@@ -36,7 +38,7 @@ header {
 
 h1 {
     font-style: italic;
-    font-size: 2em ;
+    font-size: 2.4em ;
     text-transform: uppercase;
     position: relative;
     left: 50px;
@@ -46,21 +48,23 @@ h1 {
 
 img[src="img/cerf.svg"] {
     position: relative ;
-    left: 350px;
-    top: 50px;
+    left: 300px;
+    
+    
 }
 
 .fa-caret-right {
-    font-size: 250px;
+    font-size: 350px;
     position: relative;
-    left: 100px;
-    top: 100px;
+    left: 500px;
+    transform: rotate(-45deg);
 }
 
 .fa-angle-down {
     font-size: 50px;
     position: relative;
-    left: 50%;
+    top: 150px;
+    left: 150px;
 }
 
 header .fa-window-minimize {
@@ -85,25 +89,34 @@ nav a {
     width: 80px;
 }
 
-.section01 {
-    height: 350px;
+/* .section01 {
+    height: 500px;
 }
 
 .section02 {
-    height: 400px;
+    height: 450px;
 }
 
 .section03 {
-    height: 300px;
+    height: 350px;
     
 }
 
+.section04 {
+    height: 600px;
+} */
+
+
+img[src="img/asperge.jpg"]{
+    transform: rotateY(3.142rad);
+}
 
 #ourStory {
-    width: 400px;
+    width: 300px;
     float: left;
     text-align: center;
     padding: 50px 50px 50px 50px;
+    
 }
 
 #ourStory h2 {
@@ -118,6 +131,7 @@ h2 {
     font-style: none;
     text-transform: uppercase;
     text-align: center ;
+    padding-top: 10px;
 }
 
 span {
@@ -126,22 +140,37 @@ span {
     padding-top: 30px;
 }
 
+div p {
+    margin-top: 5px;
+}
+
+div .fa-window-minimize {
+    /* position: relative; */
+    left: 80px;
+    top: 15px;
+    font-size: 30px;
+}
+
 #freshFare {
-        /* background: url(../img/graines_01.jpg) no-repeat;
-        background-position: center; */
-    background-size: cover;
+    background: url(../img/graines_01.jpg) no-repeat  ;
+    background-position: center  top 20px;
+    background-size: 40%;
+    /* background: transparent; */
+    
     width: 300px;
     text-align: center;
-    padding: 50px 50px 50px 100px;
+    padding: 130px 25px 20px 50px;
     float: left;
     
 }
 
 #distillation {
-    width: 400px;
-    width: 543px;
+    background: url(../img/graines_02.jpg) no-repeat;
+    background-position: center  top 10px;
+    background-size: 25%;
+    width: 370px;
     text-align: center;
-    padding: 50px 50px 50px 50px;
+    padding: 100px 50px 50px 50px;
     float: left;
     
 }
@@ -153,11 +182,12 @@ span {
 
 /* hauteur pour le footer  */
 footer {
-    height: 300px;
+    height: 450px;
 }
 
 /* h2 dans le footer */
 footer h2 {
+    font-size: 2.2em;
     text-align: left;
     font-style: italic;
     position: relative;
@@ -166,23 +196,30 @@ footer h2 {
 }
 
 footer .fa-window-minimize {
+    font-size: 30px;
     position: relative;
-    left: 100px;
+    top: 60PX;
+    left: 110px;
 
 }
 
 address {
+    line-height: 20px;
      position: relative;
      top: 100px;
      left: 70px;
+}
 
+footer a {
+    text-decoration: none;
+    color: black;
 }
 
 
 .social { 
     text-align: right;
     position: relative;
-    bottom: -200px;
+    bottom: -220px;
     
 }
 
