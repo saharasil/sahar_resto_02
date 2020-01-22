@@ -13,9 +13,13 @@
     <link rel="stylesheet" href="css/reset.css">
     <!-- liens vers la feuille de style  -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- autre moyen pour lier la feuille de style  -->
+        <!-- <style type="text/css">
+        @import url(css/style.css);
+        </style> -->
 </head>
 <body>
-    <!-- le div pour toute la page  -->
+    <!-- la div = conteneurn pour toute la page  -->
     <div id="conteneur">
     <!-- le header : la tête de la page  -->
         <header>
@@ -27,91 +31,106 @@
             <i class="fas fa-window-minimize"></i>
             <!-- la navigation de la page -->
             <nav>
-                <a href="#ourStory">our story</a>
-                <a href="#freshFare">fare</a>
+                <a href="#ourStory">Our story</a>
+                <a href="#freshFare">Fare</a>
                 <a href="#distillation">Drink</a>
-                <a href="#contact">contact</a>
+                <a href="#contact">Contact</a>
             </nav>
             <i class="fas fa-caret-right"></i>
-            <img src="img/cerf.svg" alt="image de cerf" width="200" height="200">
-           
+            <!-- image du cerf -->
+            <img src="img/cerf.svg" alt="image de cerf" width="150" height="150">
             <i class="fas fa-angle-down"></i>
+            <!-- autre façon pour le triangle et le cerf  -->
+            <!-- <div class="cerf">
+                <img src="img/cerf.svg" alt="image de cerf" width="150" height="150">
+                <div id="triangle"></div>
+            </div> -->
+
         </header>
         
         
-
-        <main>
         <!-- le contenu de la page  -->
-            <section class="section01">
-                <!-- ma première section  -->
+        <main>
+            <!-- ma première section  -->
+            <section>
+                <!-- la première div pour le texte -->
                 <div id="ourStory">
-                    
                     <h2>Our story</h2>
                     <i class="fas fa-window-minimize"></i>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta neque eaque beatae doloribus doloremque dolores suscipit necessitatibus nulla ratione facilis voluptatem dolor, sequi tempore sit! Natus eligendi magni praesentium in! Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, molestiae ea repellendus ex debitis unde laudantium fugit. Architecto, perspiciatis reiciendis veniam vel libero quis eligendi. Deserunt quisquam animi laudantium magnam.</p>
                     <p><span>Est. 2004</span></p>
-                   
-
                 </div>
+                <!-- ma première div pour l'image  -->
                 <div class="image_01">
-                    <img src="img/asperge.jpg" alt="photos d'asperge" width="600">
-
+                    <img src="img/asperge.jpg" alt="photo d'asperge" width="600">
                 </div>
             </section>
-            <div class="clear"></div>
-    
-            <section class="section02">
-                <!-- ma deuxième section  -->
-                <div class="image_02">
-                    <img src="img/savon.jpg" alt="" width="600">
 
+             <!-- ici je réetabli le flux -->
+            <div class="clear"></div>
+
+            <!-- ma deuxième section  -->
+            <section>
+                <!-- ma deuxième div pour la 2ème image  -->
+                <div class="image_02">
+                    <img src="img/savon.jpg" alt="photo du savon" width="600">
                 </div>
+                <!-- ma deuxième div pour le texte   -->
                 <div id="freshFare">
-                    <!-- <img src="img/graines_01.jpg" alt="" width="100px" height="100px"> -->
                     <h2>Fresh fare</h2>
                     <i class="fas fa-window-minimize"></i>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti error molestias quis fugit eum veniam, ea eius distinctio sint repudiandae vitae. Nam, adipisci officiis. Quod quas neque quam et! Vel. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus recusandae sapiente corrupti, et perspiciatis eum quos cum modi quo debitis minima. Excepturi, expedita eaque provident et similique voluptates modi nesciunt!</p>
                     <p><span>All natural</span></p>
                 </div>
             </section>
+
+            <!-- ici je réetablie le flux  -->
             <div class="clear"></div>
+
             <!-- la troisième section  -->
-            <section class="section03">
+            <section>
+                <!-- ma troisième div pour le texte -->
                 <div id="distillation">
                     <h2>Local distillation</h2>
                     <i class="fas fa-window-minimize"></i>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aliquam dolores voluptates esse fugit, similique, veritatis deleniti facilis sapiente perferendis explicabo et illum beatae, ex velit enim obcaecati ducimus dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     <p><span>Craft liquor</span></p>
-
                 </div>
-
+                <!-- ma troisième div pour l'image  -->
                 <div class="image_03">
                     <img src="img/moule.png" alt="photos des moules">
                 </div>
             </section>
+
+            <!-- ici je réetabli le flux  -->
             <div class="clear"></div>
-            <section class="section04">
-               
-               <img src="img/oeuf .jpg" alt="">
-                
+
+            <!-- ma quatérième section  -->
+            <section>
+               <img src="img/oeuf.jpg" alt="image de l'ouef au plat">  
             </section>
         </main>
         
+        <!-- le pied de la page -->
         <footer>
             <h2>Ce soir</h2>
-            <i class="fas fa-window-minimize" width="200px"></i>
+            <i class="fas fa-window-minimize"></i>
+            <!-- balise adresse pour mettre l'adresse et les moyen de contact  -->
             <address id="contact">
                 <p><i class="fas fa-map-marker-alt"></i> 142 bis avenue jean jaurès pantin</p>
                 <p><i class="fas fa-at"></i> <a href="mailto:cesoir@cerf.com">cesoir@cerf.com</a></p>
-                <p><i class="fas fa-phone-alt"></i> <a href="tel:+13115552368">(311) 555-2368</a></p>
+                <p><i class="fas fa-phone-alt"></i> <a href="tel:+13115552368">(311)555-2368</a></p>
             </address>
+            <!-- une div pour les réseaux sociaux  -->
             <div class="social">
-                <a href="https://twitter.com"></a><i class="fab fa-twitter"></i></a>
+                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
                 <a href="https://fr-fr.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.google.com"><i class="fab fa-google-plus-g"></i></a>
             </div>
         </footer> 
+
+        <!-- fin de ma div conteneur  -->
     </div>
 </body>
 </html>

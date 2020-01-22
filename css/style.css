@@ -8,24 +8,27 @@ body {
     font-size: 1em;
 }
 
-i {
-    color: #d22780;
-   
-}
-
+/* style pour le conteneur  */
 #conteneur {
     background: url(../img/motif.jpg);
     width: 1000px;
     margin: 0 auto;
     box-sizing: border-box;
+} 
 
-}
+
 
 header {
     background: url(../img/planches.jpg);
     opacity: 0.9;
     height: 600px; 
     
+}
+
+/* couleur rose pour les icône  */
+i {
+    color: #d22780;
+   
 }
 
 .jaune {
@@ -36,6 +39,8 @@ header {
     color: green;
 }
 
+/* style pour le h1  */
+
 h1 {
     font-style: italic;
     font-size: 2.4em ;
@@ -43,30 +48,9 @@ h1 {
     position: relative;
     left: 50px;
     top: 20px;
-
 }
 
-img[src="img/cerf.svg"] {
-    position: relative ;
-    left: 300px;
-    
-    
-}
-
-.fa-caret-right {
-    font-size: 350px;
-    position: relative;
-    left: 500px;
-    transform: rotate(-45deg);
-}
-
-.fa-angle-down {
-    font-size: 50px;
-    position: relative;
-    top: 150px;
-    left: 150px;
-}
-
+/* style pour icône tiret en h1  */
 header .fa-window-minimize {
     position: relative;
     left: 80px;
@@ -74,11 +58,15 @@ header .fa-window-minimize {
     font-size: 30px;
 }
 
+
+/* style pour la nav  */
+
 nav {
     text-align: right;
 
 }
 
+/* style pour les a dans la nav  */
 nav a {
     text-decoration: none;
     color: black;
@@ -89,42 +77,72 @@ nav a {
     width: 80px;
 }
 
-/* .section01 {
-    height: 500px;
+
+
+/* style pour le triangle  */
+
+.fa-caret-right {
+    font-size: 350px;
+    position: relative;
+    left: 500px;
+    transform: rotate(-45deg);
 }
 
-.section02 {
-    height: 450px;
-}
 
-.section03 {
-    height: 350px;
-    
-}
+/* style pour l'image du cerf  */
 
-.section04 {
-    height: 600px;
-} */
-
-
-img[src="img/asperge.jpg"]{
+img[src="img/cerf.svg"] {
     transform: rotateY(3.142rad);
+    position: relative ;
+    left: 300px; 
 }
 
+
+.fa-angle-down {
+    font-size: 50px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+
+/* style pour la div du premier texte  */
 #ourStory {
     width: 300px;
-    float: left;
     text-align: center;
     padding: 50px 50px 50px 50px;
     
 }
 
+/* h2 dans la première div  */
 #ourStory h2 {
     font-size: 3em;
     font-style: none;
     text-transform: uppercase;
     text-align: center ;
 }
+
+/* rotation pour l'image d'asperge  */
+
+img[src="img/asperge.jpg"] {
+
+    transform: rotateY(3.142rad);
+}
+
+
+/* style pour ma deuxième div  */
+
+#freshFare {
+    background: url(../img/graines_01.jpg) no-repeat  ;
+    background-position: center  top 20px;
+    background-size: 40%;
+    width: 300px;
+    text-align: center;
+    padding: 130px 25px 20px 50px;
+     
+}
+
+
+/* h2 dans les div 2 et 3 du texte  */
 
 h2 {
     font-size: 2em;
@@ -134,15 +152,21 @@ h2 {
     padding-top: 10px;
 }
 
+
+/* les p dans les div  */
+
+div p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* style pour les span  */
 span {
     color: #d22780;
     text-transform: uppercase ;
     padding-top: 30px;
 }
 
-div p {
-    margin-top: 5px;
-}
 
 div .fa-window-minimize {
     /* position: relative; */
@@ -151,19 +175,8 @@ div .fa-window-minimize {
     font-size: 30px;
 }
 
-#freshFare {
-    background: url(../img/graines_01.jpg) no-repeat  ;
-    background-position: center  top 20px;
-    background-size: 40%;
-    /* background: transparent; */
-    
-    width: 300px;
-    text-align: center;
-    padding: 130px 25px 20px 50px;
-    float: left;
-    
-}
 
+/* style  pour ma troisième div  */
 #distillation {
     background: url(../img/graines_02.jpg) no-repeat;
     background-position: center  top 10px;
@@ -171,10 +184,17 @@ div .fa-window-minimize {
     width: 370px;
     text-align: center;
     padding: 100px 50px 50px 50px;
-    float: left;
     
 }
 
+/* le float pour les div avec le texte  */
+
+#ourStory, #freshFare, #distillation {
+    float: left;
+} 
+
+
+/* le float pour les images  */
 .image_01, .image_02, .image_03 {
     float: left;
  
@@ -195,6 +215,8 @@ footer h2 {
     left: 70px;
 }
 
+/* style pour  icône dans le footer  */
+
 footer .fa-window-minimize {
     font-size: 30px;
     position: relative;
@@ -203,6 +225,8 @@ footer .fa-window-minimize {
 
 }
 
+
+/* style pour la balise adresse  */
 address {
     line-height: 20px;
      position: relative;
@@ -210,12 +234,16 @@ address {
      left: 70px;
 }
 
+
+/* le a dans le footer   */
 footer a {
     text-decoration: none;
     color: black;
+    display: inline-block;
+    width: 25px;
 }
 
-
+/* positionnement des logaux sociaux  */
 .social { 
     text-align: right;
     position: relative;
@@ -223,6 +251,8 @@ footer a {
     
 }
 
+
+/* la classe clera pour la rétablissement du flux  */
 .clear {
     clear: both;
 }
